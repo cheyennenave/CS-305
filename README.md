@@ -1,2 +1,16 @@
 # CS-305
 Cyber Security
+Briefly summarize your client, Artemis Financial, and its software requirements. Who was the client? What issue did the company want you to address?
+    --Artemis Financial is a consulting firm that gives their clients financial plans including savings, retirement, investment, and insurance. In this project, Artemis Financial wanted to modernize its operations with up to date software security.
+What did you do well when you found your client’s software security vulnerabilities? Why is it important to code securely? What value does software security add to a company’s overall well-being?
+    -- I successfully ran a dependency check report with the current version of the OWASP plugin to identify critical security issues and parse through false positives.It's incredibly important to code securely to prevent hackers from obtaining delicate information. Especially if that information includes social security numbers, bank statements, identifying criteria, and other vital information. Software security provides trust for a company's clientele as well as affirms a positive reputation. If a company lacks proper security and clientele lose valuable information or even physical items (money), clients are more likely to pull away from the company which will affect stock and reputation.
+Which part of the vulnerability assessment was challenging or helpful to you?
+    --This was my first time working with Springboot as well as even a pom.xml file so learning how to apply the right plugin and use the correct syntax took me a little while to understand and deploy.
+How did you increase layers of security? In the future, what would you use to assess vulnerabilities and decide which mitigation techniques to use?
+    --In the dependency report, I highlighted all issues that were of concern. In fixing this, security was increased. I deleted any false positives so that true issues could be focused on, most of which only needed updating to the current version.
+How did you make certain the code and software application were functional and secure? After refactoring the code, how did you check to see whether you introduced new vulnerabilities?
+    --Once I finished refactoring the code, I compiled and debugged it without issue. The console displayed a "SUCCESSFUL BUILD" message. I ran a seperate report to check for new vulnerabilities and no new vulnerabilities had become an issue.
+What resources, tools, or coding practices did you use that might be helpful in future assignments or tasks?
+    --HTML was a huge part of this for me and understanding what that looks like and how that is written will be crucial to any web based applications I build in the future. Also, the OWASP dependency report was a great key to use to check for vulnerabilities, which I now have bookmarked for future use as well.
+Employers sometimes ask for examples of work that you have successfully completed to show your skills, knowledge, and experience. What might you show future employers from this assignment?
+    --I would be more than willing to show them my refactored code along with any supporting material to explain in better detail what this project was about and how it could apply to my future career.
